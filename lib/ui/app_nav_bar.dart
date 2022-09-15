@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:verstka/ui/bottoms/profile.dart';
 import 'package:verstka/ui/bottoms/sms.dart';
 import 'package:verstka/ui/products_screen/widgets/products_list_screen.dart';
@@ -35,28 +34,19 @@ class AppNavBar extends StatelessWidget {
       unselectedFontSize: 14.0,
       items: [
         BottomNavigationBarItem(
-          icon: SvgPicture.asset(
-            AppAssets.svg.account,
-            color: current == 0 ? null : AppColors.neutral3,
-          ),
+          icon: Image.asset(AppAssets.images.home),
           label: 'Главная',
         ),
-        const BottomNavigationBarItem(
-          icon: Icon(Icons.settings_outlined),
+        BottomNavigationBarItem(
+          icon: Image.asset(AppAssets.images.story),
           label: 'История',
         ),
         BottomNavigationBarItem(
-          icon: SvgPicture.asset(
-            AppAssets.svg.account,
-            color: current == 0 ? null : AppColors.neutral3,
-          ),
+          icon: Image.asset(AppAssets.images.sms),
           label: 'Сообщения',
         ),
-        BottomNavigationBarItem(
-          icon: SvgPicture.asset(
-            AppAssets.svg.account,
-            color: current == 0 ? null : AppColors.neutral3,
-          ),
+        const BottomNavigationBarItem(
+          icon: Icon(Icons.people),
           label: 'Профиль',
         ),
       ],

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import '../../../constants/app_assets.dart';
 import '../../../constants/app_colors.dart';
 import '../../../constants/app_styles.dart';
 
@@ -22,10 +20,10 @@ class LoginTextField extends StatelessWidget {
       decoration: InputDecoration(
         hintText: 'Телефон',
         hintStyle: AppStyles.s16w400.copyWith(
-          color: AppColors.neutral2,
+          color: const Color.fromRGBO(162, 160, 168, 1),
         ),
         prefixIcon: const Padding(
-          padding: const EdgeInsets.symmetric(
+          padding: EdgeInsets.symmetric(
             horizontal: 16.0,
           ),
           child: Icon(Icons.phone),

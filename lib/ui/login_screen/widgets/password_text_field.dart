@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import '../../../constants/app_assets.dart';
 import '../../../constants/app_colors.dart';
 import '../../../constants/app_styles.dart';
 
@@ -26,7 +24,7 @@ class PasswordTextField extends StatelessWidget {
           color: AppColors.neutral2,
         ),
         prefixIcon: const Padding(
-            padding: const EdgeInsets.symmetric(
+            padding: EdgeInsets.symmetric(
               horizontal: 16.0,
             ),
             child: Icon(Icons.lock)),
