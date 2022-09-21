@@ -19,6 +19,11 @@ class AppStyles {
     fontWeight: FontWeight.w400,
     color: Color.fromRGBO(21, 20, 31, 0.5),
   );
+  static const textInF = TextStyle(
+    fontSize: 16.0,
+    fontWeight: FontWeight.w400,
+    color: Color.fromRGBO(130, 130, 130, 1),
+  );
 
   static const s14w400 = TextStyle(
     fontSize: 14.0,
@@ -27,6 +32,11 @@ class AppStyles {
   );
 
   static const s16w500 = TextStyle(
+    fontSize: 16.0,
+    fontWeight: FontWeight.w500,
+    color: AppColors.mainText,
+  );
+  static const s16w500F = TextStyle(
     fontSize: 16.0,
     fontWeight: FontWeight.w500,
     color: AppColors.mainText,
@@ -66,6 +76,22 @@ class AppStyles {
     fontWeight: FontWeight.w700,
     color: Colors.white,
   );
+  static const textFilter = TextStyle(
+    fontSize: 20.0,
+    fontWeight: FontWeight.w800,
+    color: Color.fromRGBO(21, 20, 31, 1),
+  );
+  static const textPrice = TextStyle(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w800,
+    color: Color.fromRGBO(20, 29, 31, 1),
+  );
+  static const textCityAndCharacter = TextStyle(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w600,
+    color: Color.fromRGBO(20, 29, 31, 1),
+  );
+
   static const frame8567 = TextStyle(
     fontSize: 16.0,
     fontWeight: FontWeight.w700,

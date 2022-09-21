@@ -12,11 +12,17 @@ class _Images {
   final String home = 'lib/assets/images/bitmap/home.png';
   final String sms = 'lib/assets/images/bitmap/sms.png';
   final String story = 'lib/assets/images/bitmap/story.png';
-
+  final String trassa = 'lib/assets/images/bitmap/trassa.png';
+  final String cardoor = 'lib/assets/images/bitmap/cardoor.png';
+  final String gorod = 'lib/assets/images/bitmap/gorod.png';
+  final String mountain = 'lib/assets/images/bitmap/mountain.png';
+  final String xetchbek = 'lib/assets/images/bitmap/xetchbek.png';
+  final String miniven = 'lib/assets/images/bitmap/miniven.png';
   final String people = 'lib/assets/images/bitmap/people.png';
   final String heart = 'lib/assets/images/bitmap/heart.png';
-  final String cardoor = 'lib/assets/images/bitmap/cardoor.png';
+  final String sedan = 'lib/assets/images/bitmap/sedan.png';
   final String background = 'lib/assets/images/bitmap/background.png';
+  final String tenge = 'lib/assets/images/bitmap/tenge.png';
 }
 
 class _Svg {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:verstka/ui/login_screen/login_screen.dart';
+import 'package:verstka/ui/products_screen/widgets/filter_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +16,13 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        checkboxTheme: CheckboxThemeData(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10),
+          ),
+        ),
       ),
-      home: const LoginScreen(),
+      home: const FilterPage(),
     );
   }
 }

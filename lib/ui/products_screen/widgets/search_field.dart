@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:verstka/ui/products_screen/widgets/filter_page.dart';
 
 import '../../../constants/app_colors.dart';
 import '../../../constants/app_styles.dart';
@@ -38,10 +39,18 @@ class SearchField extends StatelessWidget {
                 size: 26.0,
                 color: AppColors.neutral2,
               ),
-              suffixIcon: const Icon(
-                Icons.filter_list_alt,
-                size: 26.0,
+              suffixIcon: IconButton(
+                icon: const Icon(Icons.filter_list_alt),
+                iconSize: 26.0,
                 color: AppColors.neutral2,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const FilterPage(),
+                    ),
+                  );
+                },
               ),
             ),
           ),
